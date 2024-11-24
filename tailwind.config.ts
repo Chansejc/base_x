@@ -8,6 +8,9 @@ export default {
   ],
   theme: {
     extend: {
+      backgroundImage: {
+        'hero-image' : "url('https://picsum.photos/800/800')",
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
